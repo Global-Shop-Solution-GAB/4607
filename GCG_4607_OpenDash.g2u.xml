@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BorderStyle>None</BorderStyle>
+  <Pages>
+    <DefaultPage>
+      <Header>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Header>
+      <Footer>
+        <Offset>
+          <X>0</X>
+          <Y>0</Y>
+        </Offset>
+      </Footer>
+      <PageSize>
+        <Width>0</Width>
+        <Height>0</Height>
+      </PageSize>
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>443</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>2</Height>
+      </Size>
+      <X>0</X>
+      <Y>443</Y>
+      <Width>24</Width>
+      <Height>2</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <LineNumbersForeColor>WindowText</LineNumbersForeColor>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Footer>
+    <Header>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+    </Header>
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>443</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.frmMaint..Create</string>
+        <string>Gui.frmMaint..Caption("")</string>
+        <string>Gui.frmMaint..Size(8355,4170)</string>
+        <string>Gui.frmMaint..MinX(0)</string>
+        <string>Gui.frmMaint..MinY(0)</string>
+        <string>Gui.frmMaint..Position(0,0)</string>
+        <string>Gui.frmMaint..BackColor(-2147483633)</string>
+        <string>Gui.frmMaint..MaxButton(False)</string>
+        <string>Gui.frmMaint..MinButton(False)</string>
+        <string>Gui.frmMaint..MousePointer(0)</string>
+        <string>Gui.frmMaint..Event(UnLoad,frmMaint_UnLoad)</string>
+        <string>Gui.frmMaint.lbl1.Create(Label,"Calcs :",True,840,255,0,285,1110,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.lbl3.Create(Label,"Phased :",True,840,255,0,285,600,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.lbl7.Create(Label,"User 10 :",True,840,255,0,285,2610,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.lbl8.Create(Label,"Schedule :",True,840,255,0,285,2100,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.lblconfirmed.Create(Label,"Glass :",True,840,255,0,285,1590,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.lbl16.Create(Label,"User 5 :",True,750,255,0,3390,2610,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.lbl17.Create(Label,"User 4 :",True,780,255,0,3360,2100,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.lbl18.Create(Label,"User 3 :",True,735,255,0,3405,1590,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.lbl19.Create(Label,"FC Status :",True,960,255,0,3180,1110,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.lbl20.Create(Label,"APP Status :",True,1095,255,0,3045,600,True,4,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.ddlphase.Create(DropDownList)</string>
+        <string>Gui.frmMaint.ddlphase.Size(1455,330)</string>
+        <string>Gui.frmMaint.ddlphase.Position(1200,525)</string>
+        <string>Gui.frmMaint.ddlphase.TabStop(True)</string>
+        <string>Gui.frmMaint.ddlphase.TabIndex(1)</string>
+        <string>Gui.frmMaint.ddlcalcs.Create(DropDownList)</string>
+        <string>Gui.frmMaint.ddlcalcs.Size(1455,330)</string>
+        <string>Gui.frmMaint.ddlcalcs.Position(1200,1035)</string>
+        <string>Gui.frmMaint.ddlcalcs.TabStop(True)</string>
+        <string>Gui.frmMaint.ddlcalcs.TabIndex(2)</string>
+        <string>Gui.frmMaint.ddlglass.Create(DropDownList)</string>
+        <string>Gui.frmMaint.ddlglass.Size(1455,330)</string>
+        <string>Gui.frmMaint.ddlglass.Position(1200,1530)</string>
+        <string>Gui.frmMaint.ddlglass.TabStop(True)</string>
+        <string>Gui.frmMaint.ddlglass.TabIndex(3)</string>
+        <string>Gui.frmMaint.ddlSchedule.Create(DropDownList)</string>
+        <string>Gui.frmMaint.ddlSchedule.Size(1455,330)</string>
+        <string>Gui.frmMaint.ddlSchedule.Position(1200,2055)</string>
+        <string>Gui.frmMaint.ddlSchedule.TabStop(True)</string>
+        <string>Gui.frmMaint.ddlSchedule.TabIndex(4)</string>
+        <string>Gui.frmMaint.ddluser10.Create(DropDownList)</string>
+        <string>Gui.frmMaint.ddluser10.Size(1455,330)</string>
+        <string>Gui.frmMaint.ddluser10.Position(1200,2550)</string>
+        <string>Gui.frmMaint.ddluser10.TabStop(True)</string>
+        <string>Gui.frmMaint.ddluser10.TabIndex(5)</string>
+        <string>Gui.frmMaint.txtappstatus.Create(TextBox,"",True,3585,300,0,4185,525,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.frmMaint.txtappstatus.TabStop(True)</string>
+        <string>Gui.frmMaint.txtappstatus.TabIndex(6)</string>
+        <string>Gui.frmMaint.txtappstatus.MaxLength(50)</string>
+        <string>Gui.frmMaint.txtFC.Create(TextBox,"",True,3585,300,0,4185,1050,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.frmMaint.txtFC.TabStop(True)</string>
+        <string>Gui.frmMaint.txtFC.TabIndex(7)</string>
+        <string>Gui.frmMaint.txtFC.MaxLength(50)</string>
+        <string>Gui.frmMaint.txtUser3.Create(TextBox,"",True,3585,300,0,4185,1530,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.frmMaint.txtUser3.TabStop(True)</string>
+        <string>Gui.frmMaint.txtUser3.TabIndex(8)</string>
+        <string>Gui.frmMaint.txtUser3.MaxLength(50)</string>
+        <string>Gui.frmMaint.txtUser4.Create(TextBox,"",True,3585,300,0,4185,2055,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.frmMaint.txtUser4.TabStop(True)</string>
+        <string>Gui.frmMaint.txtUser4.TabIndex(9)</string>
+        <string>Gui.frmMaint.txtUser4.MaxLength(50)</string>
+        <string>Gui.frmMaint.txtUser5.Create(TextBox,"",True,3585,300,0,4185,2550,True,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.frmMaint.txtUser5.TabStop(True)</string>
+        <string>Gui.frmMaint.txtUser5.TabIndex(10)</string>
+        <string>Gui.frmMaint.txtUser5.MaxLength(50)</string>
+        <string>Gui.frmMaint.cmdSave.Create(Button)</string>
+        <string>Gui.frmMaint.cmdSave.Size(855,375)</string>
+        <string>Gui.frmMaint.cmdSave.Position(210,3150)</string>
+        <string>Gui.frmMaint.cmdSave.Caption("&amp;Save")</string>
+        <string>Gui.frmMaint.cmdSave.Event(Click,cmdSave_Click)</string>
+        <string>Gui.frmMaint.lbl4.Create(Label,"Order no :",True,840,255,0,285,165,True,1,"Arial",8,-2147483633,0)</string>
+        <string>Gui.frmMaint.txtordno.Create(TextBox,"",True,1470,300,0,1185,105,False,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.frmMaint.txtordno.TabStop(True)</string>
+        <string>Gui.frmMaint.txtordno.TabIndex(6)</string>
+        <string>Gui.frmMaint.txtordno.MaxLength(50)</string>
+        <string>Gui.frmdash..Create</string>
+        <string>Gui.frmdash..Caption("")</string>
+        <string>Gui.frmdash..Size(20250,10470)</string>
+        <string>Gui.frmdash..MinX(0)</string>
+        <string>Gui.frmdash..MinY(0)</string>
+        <string>Gui.frmdash..Position(0,0)</string>
+        <string>Gui.frmdash..BackColor(-2147483633)</string>
+        <string>Gui.frmdash..MaxButton(False)</string>
+        <string>Gui.frmdash..MinButton(False)</string>
+        <string>Gui.frmdash..MousePointer(0)</string>
+        <string>Gui.frmdash..Event(UnLoad,frmMaint_UnLoad)</string>
+        <string>Gui.frmdash.GsGrid.Create(GsGridControl)</string>
+        <string>Gui.frmdash.GsGrid.Size(19605,9015)</string>
+        <string>Gui.frmdash.GsGrid.Position(135,735)</string>
+        <string>Gui.frmdash.cmdRefresh.Create(Button)</string>
+        <string>Gui.frmdash.cmdRefresh.Size(855,375)</string>
+        <string>Gui.frmdash.cmdRefresh.Position(150,180)</string>
+        <string>Gui.frmdash.cmdRefresh.Caption("Refresh")</string>
+        <string>Gui.frmdash.cmdRefresh.Event(Click,cmdRefresh_Click)</string>
+        <string>Gui.frmdash.cmdDashSave.Create(Button)</string>
+        <string>Gui.frmdash.cmdDashSave.Size(855,375)</string>
+        <string>Gui.frmdash.cmdDashSave.Position(1110,180)</string>
+        <string>Gui.frmdash.cmdDashSave.Caption("Save")</string>
+        <string>Gui.frmdash.cmdDashSave.Event(Click,cmdDashSave_Click)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sOrdno.Declare(String)</string>
+        <string />
+        <string />
+        <string>'order selected hook</string>
+        <string>f.Intrinsic.Control.If(v.Caller.Hook,=,11565)</string>
+        <string>	'script1 button</string>
+        <string>	Variable.Passed.000201.Set("User Fields")</string>
+        <string>f.Intrinsic.Control.elseIf(v.Caller.Hook,=,11910)</string>
+        <string>'script1 click</string>
+        <string>	F.odbc.Connection!conx.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)</string>
+        <string>	gui.frmMaint.ddlcalcs.AddItem("")</string>
+        <string>	gui.frmMaint.ddlcalcs.AddItem("Yes")</string>
+        <string>	gui.frmMaint.ddlcalcs.AddItem("No")</string>
+        <string>	gui.frmMaint.ddlcalcs.AddItem("Sent")</string>
+        <string>	</string>
+        <string>	gui.frmMaint.ddlglass.AddItem("")</string>
+        <string>	gui.frmMaint.ddlglass.AddItem("Engineered")</string>
+        <string>	gui.frmMaint.ddlglass.AddItem("Ordered")</string>
+        <string>	gui.frmMaint.ddlglass.AddItem("Confirmed")</string>
+        <string>	</string>
+        <string>	gui.frmMaint.ddlphase.AddItem("")</string>
+        <string>	gui.frmMaint.ddlphase.AddItem("Yes")</string>
+        <string>	gui.frmMaint.ddlphase.AddItem("No")</string>
+        <string>	</string>
+        <string>	gui.frmMaint.ddlSchedule.AddItem("")</string>
+        <string>	gui.frmMaint.ddlSchedule.AddItem("Standard")</string>
+        <string>	gui.frmMaint.ddlSchedule.AddItem("Condensed")</string>
+        <string>	gui.frmMaint.ddlSchedule.AddItem("Expedited")</string>
+        <string>	</string>
+        <string>	Function.Intrinsic.String.Lpad(Variable.Passed.000003,"0",7, V.Local.sOrdno)</string>
+        <string>	gui.frmMaint.txtordno.Text( V.Local.sOrdno)</string>
+        <string>	</string>
+        <string>	f.Intrinsic.Control.CallSub(GetData)</string>
+        <string />
+        <string>	gui.frmMaint..Show </string>
+        <string>f.Intrinsic.Control.else</string>
+        <string>	'custom menu</string>
+        <string>	F.odbc.Connection!conx.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)</string>
+        <string>	f.Intrinsic.Control.CallSub(showdata_grid)</string>
+        <string>	gui.frmdash..Show </string>
+        <string>f.Intrinsic.Control.endif</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_9161_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.cmdSave_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string />
+        <string>'Args = GRID  means save call from grid screen</string>
+        <string>f.Intrinsic.Control.If(v.Args.Mode,&lt;&gt;,"GRID")</string>
+        <string>	F.Data.DataTable.SetValue("Header",0, "order_no",v.Screen.frmMaint!txtordno.text,"User_Calcs",v.screen.frmmaint!ddlcalcs.Text,"User_Glass",v.screen.frmmaint!ddlglass.Text,"User_Phased",v.screen.frmmaint!ddlphase.Text,"User_APP",v.screen.frmmaint!txtappstatus.Text,"User_FC",v.screen.frmmaint!txtFC.Text,"User_Schedule",v.screen.frmmaint!ddlSchedule.Text)</string>
+        <string>f.Intrinsic.Control.EndIf </string>
+        <string />
+        <string>'F.Data.DataTable.SaveToDB("Header","conx","GCG_4607_OpenDash","order_no",256,"order_no@!@order_no*!*User_Calcs@!@User_Calcs*!*User_Glass@!@User_Glass*!*User_Phased@!@User_Phased*!*User_10@!@User_10*!*User_APP@!@User_APP*!*User_FC@!@User_FC*!*User_3@!@User_3*!*User_4@!@User_4*!*User_5@!@User_5*!*User_Schedule@!@User_Schedule")	</string>
+        <string />
+        <string>F.Data.DataTable.SaveToDB("Header","conx","GCG_4607_OpenDash","order_no",256,"order_no@!@order_no*!*User_Calcs@!@User_Calcs*!*User_Glass@!@User_Glass*!*User_Phased@!@User_Phased*!*User_APP@!@User_APP*!*User_FC@!@User_FC*!*User_Schedule@!@User_Schedule")	</string>
+        <string />
+        <string>f.Intrinsic.UI.Msgbox("Data saved successfully")</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_9161_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdSave_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdRefresh_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdSave_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>gui.frmdash..Visible(False)</string>
+        <string>f.Intrinsic.Control.CallSub(showdata_grid)</string>
+        <string>gui.frmdash..Visible(True)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdSave_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.UI.CloseWaitDialog</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_9161_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdRefresh_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdDashSave_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdRefresh_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>f.Intrinsic.Control.CallSub(cmdsave_click,"Mode","GRID")</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdRefresh_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_9161_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.cmdDashSave_Click.End</string>
+        <string />
+        <string>Program.Sub.frmMaint_UnLoad.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdDashSave_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(v.DataTable.Header.Exists,=,True)</string>
+        <string>		F.Data.DataTable.Close("Header")</string>
+        <string>	f.Intrinsic.Control.EndIf </string>
+        <string>	</string>
+        <string>	f.ODBC.Connection!conx.Close </string>
+        <string>	f.Intrinsic.Control.End </string>
+        <string />
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdDashSave_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_9161_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.frmMaint_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.GetData.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("GetData_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>v.Local.ssql.Declare(String)</string>
+        <string />
+        <string />
+        <string>'	v.Local.sOrderno.Set(v.Passed.9999)</string>
+        <string />
+        <string>	Function.Intrinsic.UI.InvokeWaitDialog("Processing ...")</string>
+        <string>	</string>
+        <string>'	gui.frmMaint.txtordno.Text("0000590")</string>
+        <string>	</string>
+        <string>	f.Intrinsic.String.Build("select order_no,User_Calcs,User_Glass,User_Phased,User_Schedule,User_APP,User_FC from GCG_4607_OpenDash where order_no = '{0}'",v.Screen.frmMaint!txtordno.text,v.Local.ssql)</string>
+        <string />
+        <string>	F.Intrinsic.Control.If(v.DataTable.Header.Exists,=,True)</string>
+        <string>		F.Data.DataTable.Close("Header")</string>
+        <string>	f.Intrinsic.Control.EndIf </string>
+        <string />
+        <string>	F.Data.DataTable.CreateFromSql("Header","conx",v.Local.sSql,True)</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.If(v.DataTable.Header.rowcount,&gt;,0)</string>
+        <string>		gui.frmMaint.ddlcalcs.Text(v.datatable.Header(0).User_Calcs!FieldValTrim) </string>
+        <string>		gui.frmMaint.ddlglass.Text(v.datatable.Header(0).User_Glass!FieldValTrim) </string>
+        <string>		gui.frmMaint.ddlphase.Text(v.datatable.Header(0).User_Phased!FieldValTrim) </string>
+        <string>		gui.frmMaint.ddlSchedule.Text(v.datatable.Header(0).User_Schedule!FieldValTrim) </string>
+        <string>'		gui.frmMaint.ddluser10.Text(v.datatable.Header(0).User_10!FieldValTrim) </string>
+        <string>		</string>
+        <string>		gui.frmMaint.txtappstatus.Text(v.DataTable.Header(0).User_APP!FieldValTrim) </string>
+        <string>		gui.frmMaint.txtFC.Text(v.DataTable.Header(0).User_FC!FieldValTrim)</string>
+        <string>'		gui.frmMaint.txtUser3.Text(v.DataTable.Header(0).User_3!FieldValTrim)</string>
+        <string>'		gui.frmMaint.txtUser4.Text(v.DataTable.Header(0).User_4!FieldValTrim)</string>
+        <string>'		gui.frmMaint.txtUser5.Text(v.DataTable.Header(0).User_5!FieldValTrim)</string>
+        <string>	f.Intrinsic.Control.endif</string>
+        <string>	</string>
+        <string>	Function.Intrinsic.UI.CloseWaitDialog</string>
+        <string />
+        <string />
+        <string />
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("GetData_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4607_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.GetData.End</string>
+        <string />
+        <string>Program.Sub.ShowData_Grid.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("ShowData_Grid_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>v.Local.ssql.Declare(String)</string>
+        <string>v.Local.i.Declare(long)</string>
+        <string>v.Local.iret.Declare(long)</string>
+        <string>v.Local.stitle.Declare(String)</string>
+        <string />
+        <string>'	f.Intrinsic.String.Build("select * from GCG_4607_OpenDash"," ",v.Local.ssql)</string>
+        <string />
+        <string>	Function.Intrinsic.UI.InvokeWaitDialog("Processing ...")</string>
+        <string>	</string>
+        <string>	</string>
+        <string>'F.Intrinsic.Debug.InvokeDebugger</string>
+        <string>'</string>
+        <string>'F.Intrinsic.Debug.Stop</string>
+        <string />
+        <string>	</string>
+        <string>	v.Local.ssql.Set("select distinct HDR.User_1,HDR.Order_No,HDR.Date_Order,CASE WHEN rtrim(HDR.ORDER_SORT_2) = '' THEN HDR.MARK_INFO else HDR.ORDER_SORT_2 END as 'Job Name', ")</string>
+        <string>	f.Intrinsic.String.Build(" {0} Hdr.Customer,HDR.Code_Sort,HDR.User_3,User_APP, User_FC,User_Phased,User_Calcs,User_Glass,User_Schedule ",v.Local.ssql,v.Local.ssql)</string>
+        <string>	f.Intrinsic.String.Build(" {0} from V_Order_Header as  HDR join V_Order_lines as det on hdr.order_no = det.order_no ",v.Local.ssql,v.Local.ssql)</string>
+        <string>	f.Intrinsic.String.Build(" {0} join GCG_4607_OpenDash as Dash on Hdr.ORDER_NO = Dash.ORDER_NO where QTY_BO &gt;0" ,v.Local.ssql,v.Local.ssql )</string>
+        <string />
+        <string />
+        <string>	F.Intrinsic.Control.If(v.DataTable.Header.Exists,=,True)</string>
+        <string>		F.Data.DataTable.Close("Header")</string>
+        <string>	f.Intrinsic.Control.EndIf </string>
+        <string />
+        <string>	F.Data.DataTable.CreateFromSql("Header","conx",v.Local.sSql,True)</string>
+        <string>	</string>
+        <string>	gui.frmdash.GsGrid.AddGridViewFromDataTable("Grid_Header","Header") </string>
+        <string>	gui.frmdash.GsGrid.mainview("Grid_Header")</string>
+        <string />
+        <string>gui.frmdash.GsGrid.GetColumnCount("Grid_Header",v.Local.iret)</string>
+        <string>f.Intrinsic.Math.Sub(v.Local.iret,1,v.Local.iret)</string>
+        <string>f.Intrinsic.Control.For(v.Local.i,0,v.Local.iret,1)</string>
+        <string>	gui.frmdash.GsGrid.GetColumnNamebyIndex("Grid_Header",v.Local.i,v.Local.stitle)</string>
+        <string>'	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle, "DisplayCustomDatetime", "d")</string>
+        <string>	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"MinWidth",60)</string>
+        <string>'	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"MaxWidth",60)</string>
+        <string>	</string>
+        <string>	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"AllowEdit",True)</string>
+        <string>	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"ReadOnly",False)</string>
+        <string>	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"HeaderFontBold","True")</string>
+        <string>	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"HeaderWordWrap","wrap")</string>
+        <string>f.Intrinsic.Control.Next(v.Local.i)</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetGridViewProperty("Grid_Header", "ColumnPanelRowHeight", "40")</string>
+        <string>gui.frmdash.GsGrid.SetGridViewProperty("Grid_Header", "Enableappearanceevenrow", "True")</string>
+        <string />
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_1","Caption","PM")</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Order_No","Caption","SO #")</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Order","Caption","Order Date")</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Code_Sort","Caption","Rail System")</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_3","Caption","Installer")</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_Calcs","Caption","Calcs")</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_Glass","Caption","Glass")</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_Phased","Caption","Phased")</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_Schedule","Caption","Schedule")</string>
+        <string />
+        <string>gui.frmdash.GsGrid.ColumnEdit("Grid_Header","User_Calcs","Dropdownlist","*!*Yes*!*No*!*Sent")</string>
+        <string>gui.frmdash.GsGrid.ColumnEdit("Grid_Header","User_Glass","Dropdownlist","*!*Engineered*!*Ordered*!*Confirmed")</string>
+        <string>gui.frmdash.GsGrid.ColumnEdit("Grid_Header","User_Phased","Dropdownlist","*!*Yes*!*No")</string>
+        <string>gui.frmdash.GsGrid.ColumnEdit("Grid_Header","User_Schedule","Dropdownlist","*!*Standard*!*Condensed*!*Expedited")</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_APP","Caption","APP Status")</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_FC","Caption","FC Status")</string>
+        <string />
+        <string>'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_10","Caption","User10")</string>
+        <string>'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_3","Caption","User3")</string>
+        <string>'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_4","Caption","User4")</string>
+        <string>'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_5","Caption","User5")</string>
+        <string />
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","ORDER_NO","AllowEdit",False)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","ORDER_NO","ReadOnly",True)</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_1","AllowEdit",False)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_1","ReadOnly",True)</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Order","AllowEdit",False)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Order","ReadOnly",True)</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Code_Sort","AllowEdit",False)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Code_Sort","ReadOnly",True)</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_3","AllowEdit",False)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_3","ReadOnly",True)</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Job Name","AllowEdit",False)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Job Name","ReadOnly",True)</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Customer","AllowEdit",False)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Customer","ReadOnly",True)</string>
+        <string />
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_1","MinWidth",90)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Job Name","MinWidth",90)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Code_Sort","MinWidth",90)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_3","MinWidth",90)</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_1","MaxWidth",120)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Job Name","MaxWidth",120)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Code_Sort","MaxWidth",120)</string>
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_3","MaxWidth",120)</string>
+        <string />
+        <string>gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Order", "DisplayCustomDatetime", "d")</string>
+        <string />
+        <string />
+        <string>'add</string>
+        <string>'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header", "SO", "Visible", False)</string>
+        <string>'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header", "SO_Ln", "Visible", False)</string>
+        <string />
+        <string>Function.Intrinsic.UI.CloseWaitDialog</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("ShowData_Grid_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.UI.CloseWaitDialog</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4607_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.ShowData_Grid.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$Open Dashboard$}$RAN$}$5/23/2017 11:30:54 PM$}$False</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>288</WindowOriginY>
+    <Options>None</Options>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>101</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>103</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>104</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>106</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>162</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>164</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>191</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdSave_Click</Text>
+        <DisplayText>Program.Sub.cmdSave_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>193</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>212</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdRefresh_Click</Text>
+        <DisplayText>Program.Sub.cmdRefresh_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>214</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>231</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdDashSave_Click</Text>
+        <DisplayText>Program.Sub.cmdDashSave_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>233</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>257</Y>
+        </EndPoint>
+        <Text>Program.Sub.frmMaint_UnLoad</Text>
+        <DisplayText>Program.Sub.frmMaint_UnLoad</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>259</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>310</Y>
+        </EndPoint>
+        <Text>Program.Sub.GetData</Text>
+        <DisplayText>Program.Sub.GetData</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>312</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>441</Y>
+        </EndPoint>
+        <Text>Program.Sub.ShowData_Grid</Text>
+        <DisplayText>Program.Sub.ShowData_Grid</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>443</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>445</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
