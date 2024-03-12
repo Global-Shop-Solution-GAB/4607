@@ -1,0 +1,545 @@
+Program.Sub.ScreenSU.Start
+Gui.frmMaint..Create
+Gui.frmMaint..Caption("")
+Gui.frmMaint..Size(8355,4170)
+Gui.frmMaint..MinX(0)
+Gui.frmMaint..MinY(0)
+Gui.frmMaint..Position(0,0)
+Gui.frmMaint..BackColor(-2147483633)
+Gui.frmMaint..MaxButton(False)
+Gui.frmMaint..MinButton(False)
+Gui.frmMaint..MousePointer(0)
+Gui.frmMaint..Event(UnLoad,frmMaint_UnLoad)
+Gui.frmMaint.lbl1.Create(Label,"Calcs :",True,840,255,0,285,1110,True,1,"Arial",8,-2147483633,0)
+Gui.frmMaint.lbl3.Create(Label,"Phased :",True,840,255,0,285,600,True,1,"Arial",8,-2147483633,0)
+Gui.frmMaint.lbl7.Create(Label,"User 10 :",True,840,255,0,285,2610,True,1,"Arial",8,-2147483633,0)
+Gui.frmMaint.lbl8.Create(Label,"Schedule :",True,840,255,0,285,2100,True,1,"Arial",8,-2147483633,0)
+Gui.frmMaint.lblconfirmed.Create(Label,"Glass :",True,840,255,0,285,1590,True,1,"Arial",8,-2147483633,0)
+Gui.frmMaint.lbl16.Create(Label,"User 5 :",True,750,255,0,3390,2610,True,1,"Arial",8,-2147483633,0)
+Gui.frmMaint.lbl17.Create(Label,"User 4 :",True,780,255,0,3360,2100,True,1,"Arial",8,-2147483633,0)
+Gui.frmMaint.lbl18.Create(Label,"User 3 :",True,735,255,0,3405,1590,True,1,"Arial",8,-2147483633,0)
+Gui.frmMaint.lbl19.Create(Label,"FC Status :",True,960,255,0,3180,1110,True,1,"Arial",8,-2147483633,0)
+Gui.frmMaint.lbl20.Create(Label,"APP Status :",True,1095,255,0,3045,600,True,4,"Arial",8,-2147483633,0)
+Gui.frmMaint.ddlphase.Create(DropDownList)
+Gui.frmMaint.ddlphase.Size(1455,330)
+Gui.frmMaint.ddlphase.Position(1200,525)
+Gui.frmMaint.ddlphase.TabStop(True)
+Gui.frmMaint.ddlphase.TabIndex(1)
+Gui.frmMaint.ddlcalcs.Create(DropDownList)
+Gui.frmMaint.ddlcalcs.Size(1455,330)
+Gui.frmMaint.ddlcalcs.Position(1200,1035)
+Gui.frmMaint.ddlcalcs.TabStop(True)
+Gui.frmMaint.ddlcalcs.TabIndex(2)
+Gui.frmMaint.ddlglass.Create(DropDownList)
+Gui.frmMaint.ddlglass.Size(1455,330)
+Gui.frmMaint.ddlglass.Position(1200,1530)
+Gui.frmMaint.ddlglass.TabStop(True)
+Gui.frmMaint.ddlglass.TabIndex(3)
+Gui.frmMaint.ddlSchedule.Create(DropDownList)
+Gui.frmMaint.ddlSchedule.Size(1455,330)
+Gui.frmMaint.ddlSchedule.Position(1200,2055)
+Gui.frmMaint.ddlSchedule.TabStop(True)
+Gui.frmMaint.ddlSchedule.TabIndex(4)
+Gui.frmMaint.ddluser10.Create(DropDownList)
+Gui.frmMaint.ddluser10.Size(1455,330)
+Gui.frmMaint.ddluser10.Position(1200,2550)
+Gui.frmMaint.ddluser10.TabStop(True)
+Gui.frmMaint.ddluser10.TabIndex(5)
+Gui.frmMaint.txtappstatus.Create(TextBox,"",True,3585,300,0,4185,525,True,0,"Arial",8,-2147483643,1)
+Gui.frmMaint.txtappstatus.TabStop(True)
+Gui.frmMaint.txtappstatus.TabIndex(6)
+Gui.frmMaint.txtappstatus.MaxLength(50)
+Gui.frmMaint.txtFC.Create(TextBox,"",True,3585,300,0,4185,1050,True,0,"Arial",8,-2147483643,1)
+Gui.frmMaint.txtFC.TabStop(True)
+Gui.frmMaint.txtFC.TabIndex(7)
+Gui.frmMaint.txtFC.MaxLength(50)
+Gui.frmMaint.txtUser3.Create(TextBox,"",True,3585,300,0,4185,1530,True,0,"Arial",8,-2147483643,1)
+Gui.frmMaint.txtUser3.TabStop(True)
+Gui.frmMaint.txtUser3.TabIndex(8)
+Gui.frmMaint.txtUser3.MaxLength(50)
+Gui.frmMaint.txtUser4.Create(TextBox,"",True,3585,300,0,4185,2055,True,0,"Arial",8,-2147483643,1)
+Gui.frmMaint.txtUser4.TabStop(True)
+Gui.frmMaint.txtUser4.TabIndex(9)
+Gui.frmMaint.txtUser4.MaxLength(50)
+Gui.frmMaint.txtUser5.Create(TextBox,"",True,3585,300,0,4185,2550,True,0,"Arial",8,-2147483643,1)
+Gui.frmMaint.txtUser5.TabStop(True)
+Gui.frmMaint.txtUser5.TabIndex(10)
+Gui.frmMaint.txtUser5.MaxLength(50)
+Gui.frmMaint.cmdSave.Create(Button)
+Gui.frmMaint.cmdSave.Size(855,375)
+Gui.frmMaint.cmdSave.Position(210,3150)
+Gui.frmMaint.cmdSave.Caption("&Save")
+Gui.frmMaint.cmdSave.Event(Click,cmdSave_Click)
+Gui.frmMaint.lbl4.Create(Label,"Order no :",True,840,255,0,285,165,True,1,"Arial",8,-2147483633,0)
+Gui.frmMaint.txtordno.Create(TextBox,"",True,1470,300,0,1185,105,False,0,"Arial",8,-2147483643,1)
+Gui.frmMaint.txtordno.TabStop(True)
+Gui.frmMaint.txtordno.TabIndex(6)
+Gui.frmMaint.txtordno.MaxLength(50)
+Gui.frmdash..Create
+Gui.frmdash..Caption("")
+Gui.frmdash..Size(20850,10470)
+Gui.frmdash..MinX(0)
+Gui.frmdash..MinY(0)
+Gui.frmdash..Position(0,0)
+Gui.frmdash..BackColor(-2147483633)
+Gui.frmdash..MaxButton(False)
+Gui.frmdash..MinButton(False)
+Gui.frmdash..MousePointer(0)
+Gui.frmdash..Event(UnLoad,frmMaint_UnLoad)
+Gui.frmdash.GsGrid.Create(GsGridControl)
+Gui.frmdash.GsGrid.Size(20445,9015)
+Gui.frmdash.GsGrid.Position(135,735)
+Gui.frmdash.GsGrid.Event(CellValueChanged,GsGrid_CellValueChanged)
+Gui.frmdash.cmdRefresh.Create(Button)
+Gui.frmdash.cmdRefresh.Size(855,375)
+Gui.frmdash.cmdRefresh.Position(150,180)
+Gui.frmdash.cmdRefresh.Caption("Refresh")
+Gui.frmdash.cmdRefresh.Event(Click,cmdRefresh_Click)
+Gui.frmdash.cmdDashSave.Create(Button)
+Gui.frmdash.cmdDashSave.Size(855,375)
+Gui.frmdash.cmdDashSave.Position(1110,180)
+Gui.frmdash.cmdDashSave.Caption("Save")
+Gui.frmdash.cmdDashSave.Event(Click,cmdDashSave_Click)
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+F.Intrinsic.Control.SetErrorHandler("Main_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+V.Local.sOrdno.Declare(String)
+V.Global.bDatachanged.Declare(boolean)
+
+'order selected hook
+f.Intrinsic.Control.If(v.Caller.Hook,=,11565)
+	'script1 button
+	Variable.Passed.000201.Set("User Fields")
+f.Intrinsic.Control.elseIf(v.Caller.Hook,=,11910)
+'script1 click
+	F.odbc.Connection!conx.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)
+	gui.frmMaint.ddlcalcs.AddItem("")
+	gui.frmMaint.ddlcalcs.AddItem("Yes")
+	gui.frmMaint.ddlcalcs.AddItem("No")
+	gui.frmMaint.ddlcalcs.AddItem("Sent")
+	
+	gui.frmMaint.ddlglass.AddItem("")
+	gui.frmMaint.ddlglass.AddItem("Engineered")
+	gui.frmMaint.ddlglass.AddItem("Ordered")
+	gui.frmMaint.ddlglass.AddItem("Confirmed")
+	
+	gui.frmMaint.ddlphase.AddItem("")
+	gui.frmMaint.ddlphase.AddItem("Yes")
+	gui.frmMaint.ddlphase.AddItem("No")
+	
+	gui.frmMaint.ddlSchedule.AddItem("")
+	gui.frmMaint.ddlSchedule.AddItem("Standard")
+	gui.frmMaint.ddlSchedule.AddItem("Condensed")
+	gui.frmMaint.ddlSchedule.AddItem("Expedited")
+	
+	Function.Intrinsic.String.Lpad(Variable.Passed.000003,"0",7, V.Local.sOrdno)
+	gui.frmMaint.txtordno.Text( V.Local.sOrdno)
+	
+	f.Intrinsic.Control.CallSub(GetData)
+
+	gui.frmMaint..Show 
+f.Intrinsic.Control.else
+	'custom menu
+	F.odbc.Connection!conx.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)
+	f.Intrinsic.Control.CallSub(showdata_grid)
+	gui.frmdash..Show 
+f.Intrinsic.Control.endif
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Main_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_9161_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.Main.End
+
+Program.Sub.cmdSave_Click.Start
+F.Intrinsic.Control.SetErrorHandler("Main_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+v.Local.sFilter.Declare(String)
+
+'User_APP User_1
+'User_FC	 User_2 
+'User_Phased User_6
+'User_Calcs User_7
+'User_Glass User_8
+'User_Schedule User_9
+
+'Args = GRID  means save call from grid screen
+f.Intrinsic.Control.If(v.Args.Mode,<>,"GRID")
+'*!*User_3@!@User_3*!*User_4@!@User_4*!*User_5@!@User_5
+'v.screen.frmmaint!txtUser3 
+'v.screen.frmmaint!txtUser4
+'v.screen.frmmaint!txtUser5
+
+	F.Data.DataTable.SetValue("Header",0, "order_no",v.Screen.frmMaint!txtordno.text,"User_7",v.screen.frmmaint!ddlcalcs.Text,"User_8",v.screen.frmmaint!ddlglass.Text,"User_6",v.screen.frmmaint!ddlphase.Text,"User_1",v.screen.frmmaint!txtappstatus.Text,"User_2",v.screen.frmmaint!txtFC.Text,"User_9",v.screen.frmmaint!ddlSchedule.Text,"User_3",v.screen.frmmaint!txtUser3.Text,"User_4",v.screen.frmmaint!txtUser4.Text,"User_5",v.screen.frmmaint!txtUser5.Text)
+	F.Data.DataTable.SaveToDB("Header","conx","GCG_4607_OpenDash","order_no",256,"order_no@!@order_no*!*User_7@!@User_7*!*User_8@!@User_8*!*User_6@!@User_6*!*User_10@!@User_10*!*User_1@!@User_1*!*User_2@!@User_2*!*User_3@!@User_3*!*User_4@!@User_4*!*User_5@!@User_5*!*User_9@!@User_9")	
+
+'	F.Data.DataTable.SetValue("Header",0, "order_no",v.Screen.frmMaint!txtordno.text,"User_Calcs",v.screen.frmmaint!ddlcalcs.Text,"User_Glass",v.screen.frmmaint!ddlglass.Text,"User_Phased",v.screen.frmmaint!ddlphase.Text,"User_APP",v.screen.frmmaint!txtappstatus.Text,"User_FC",v.screen.frmmaint!txtFC.Text,"User_Schedule",v.screen.frmmaint!ddlSchedule.Text)
+'	F.Data.DataTable.SaveToDB("Header","conx","GCG_4607_OpenDash","order_no",256,"order_no@!@order_no*!*User_Calcs@!@User_Calcs*!*User_Glass@!@User_Glass*!*User_Phased@!@User_Phased*!*User_APP@!@User_APP*!*User_FC@!@User_FC*!*User_Schedule@!@User_Schedule")	
+f.Intrinsic.Control.Else
+	v.Local.sFilter.Set("User_1 <> '' or User_7 <> '' or User_2 <> '' or User_8 <> '' or User_6 <> '' or User_9 <> '' or User_3 <> ''")
+
+	F.Data.DataView.Create("Header","GridView",22,v.Local.sFilter,"")
+
+	Function.Data.DataView.ToDataTable("Header","GridView","DTSave")
+
+	f.ODBC.Connection!conx.Execute("Delete from GCG_4607_OpenDash")
+	F.Data.DataTable.SaveToDB("DTSave","conx","GCG_4607_OpenDash","order_no",256,"order_no@!@order_no*!*User_7@!@User_7*!*User_8@!@User_8*!*User_6@!@User_6*!*User_1@!@User_1*!*User_2@!@User_2*!*User_9@!@User_9*!*User_3@!@User_3")	
+	Function.Data.DataView.Close("Header", "GridView")
+f.Intrinsic.Control.EndIf 
+
+v.Global.bDatachanged.Set(false)
+f.Intrinsic.UI.Msgbox("Data saved successfully")
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Main_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_9161_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.cmdSave_Click.End
+
+Program.Sub.cmdRefresh_Click.Start
+F.Intrinsic.Control.SetErrorHandler("cmdSave_Click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+gui.frmdash..Visible(False)
+f.Intrinsic.Control.CallSub(showdata_grid)
+gui.frmdash..Visible(True)
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmdSave_Click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.UI.CloseWaitDialog
+	Function.Intrinsic.String.Concat("Project: GCG_9161_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.cmdRefresh_Click.End
+
+Program.Sub.cmdDashSave_Click.Start
+F.Intrinsic.Control.SetErrorHandler("cmdRefresh_Click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+Function.Intrinsic.UI.InvokeWaitDialog("Processing ...")
+f.Intrinsic.Control.CallSub(cmdsave_click,"Mode","GRID")
+Function.Intrinsic.UI.CloseWaitDialog
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmdRefresh_Click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.UI.CloseWaitDialog
+	Function.Intrinsic.String.Concat("Project: GCG_9161_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.cmdDashSave_Click.End
+
+Program.Sub.frmMaint_UnLoad.Start
+F.Intrinsic.Control.SetErrorHandler("cmdDashSave_Click_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+variable.local.returnvalue.Declare(long)
+
+	f.Intrinsic.Control.If(v.Global.bDatachanged,=,True)
+		Function.Intrinsic.UI.MsgBox("Data not saved, Do you want to save ?", "Confirm", 4, variable.local.returnvalue)
+		f.Intrinsic.Control.If(variable.local.returnvalue,=,6)
+			f.Intrinsic.Control.CallSub(cmdDashSave_Click)
+		f.Intrinsic.Control.EndIf 
+	f.Intrinsic.Control.EndIf 
+
+	F.Intrinsic.Control.If(v.DataTable.Header.Exists,=,True)
+		F.Data.DataTable.Close("Header")
+	f.Intrinsic.Control.EndIf 
+
+	F.Intrinsic.Control.If(v.DataTable.DTSave.Exists,=,True)
+		F.Data.DataTable.Close("DTSave")
+	f.Intrinsic.Control.EndIf 
+
+	
+	f.ODBC.Connection!conx.Close 
+	f.Intrinsic.Control.End 
+
+
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("cmdDashSave_Click_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_9161_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.frmMaint_UnLoad.End
+
+Program.Sub.GetData.Start
+F.Intrinsic.Control.SetErrorHandler("GetData_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+v.Local.ssql.Declare(String)
+
+
+'	v.Local.sOrderno.Set(v.Passed.9999)
+
+	Function.Intrinsic.UI.InvokeWaitDialog("Processing ...")
+	
+	'User_APP User_1
+'User_FC	 User_2 
+'User_Phased User_6
+'User_Calcs User_7
+'User_Glass User_8
+'User_Schedule User_9
+	
+'	gui.frmMaint.txtordno.Text("0000590")
+	
+'	f.Intrinsic.String.Build("select order_no,User_Calcs,User_Glass,User_Phased,User_Schedule,User_APP,User_FC from GCG_4607_OpenDash where order_no = '{0}'",v.Screen.frmMaint!txtordno.text,v.Local.ssql)
+	f.Intrinsic.String.Build("select * from GCG_4607_OpenDash where order_no = '{0}'",v.Screen.frmMaint!txtordno.text,v.Local.ssql)
+	F.Intrinsic.Control.If(v.DataTable.Header.Exists,=,True)
+		F.Data.DataTable.Close("Header")
+	f.Intrinsic.Control.EndIf 
+
+	F.Data.DataTable.CreateFromSql("Header","conx",v.Local.sSql,True)
+	
+	F.Intrinsic.Control.If(v.DataTable.Header.rowcount,>,0)
+		gui.frmMaint.ddlcalcs.Text(v.datatable.Header(0).User_7!FieldValTrim) 
+		gui.frmMaint.ddlglass.Text(v.datatable.Header(0).User_8!FieldValTrim) 
+		gui.frmMaint.ddlphase.Text(v.datatable.Header(0).User_6!FieldValTrim) 
+		gui.frmMaint.ddlSchedule.Text(v.datatable.Header(0).User_9!FieldValTrim) 
+'		gui.frmMaint.ddluser10.Text(v.datatable.Header(0).User_10!FieldValTrim) 
+		
+		gui.frmMaint.txtappstatus.Text(v.DataTable.Header(0).User_1!FieldValTrim) 
+		gui.frmMaint.txtFC.Text(v.DataTable.Header(0).User_2!FieldValTrim)
+		gui.frmMaint.txtUser3.Text(v.DataTable.Header(0).User_3!FieldValTrim)
+		gui.frmMaint.txtUser4.Text(v.DataTable.Header(0).User_4!FieldValTrim)
+		gui.frmMaint.txtUser5.Text(v.DataTable.Header(0).User_5!FieldValTrim)
+	f.Intrinsic.Control.Else
+'		F.Data.DataTable.AddRowByMap(v.Args.sTable, "UserID*!*UserName
+		
+		F.Data.DataTable.AddRowByMap("Header", "order_no*!*User_7*!*User_8*!*User_6*!*User_1*!*User_2*!*User_3*!*User_4*!*User_5*!*User_9","","","","","","","","","","")
+		'F.Data.DataTable.AddRowByMap(v.Args.sTable, "UserID*!*UserName*!*GroupFlag*!*GroupType*!*Dist_Email", v.Local.sValues(0), v.Local.sValues(1), v.Local.sValues(2),v.Local.sValues(3), v.Local.sEmail.Trim)
+'		F.Data.DataTable.AddRowByMap(v.Args.sTable, "UserID*!*UserName*!*GroupFlag*!*GroupType*!*Dist_Email", v.Local.sValues(0), v.Local.sValues(1), v.Local.sValues(2),v.Local.sValues(3), v.Local.sEmail.Trim)
+	f.Intrinsic.Control.endif
+	
+	Function.Intrinsic.UI.CloseWaitDialog
+
+
+
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("GetData_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.UI.CloseWaitDialog
+	Function.Intrinsic.String.Concat("Project: GCG_4607_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.GetData.End
+
+Program.Sub.ShowData_Grid.Start
+F.Intrinsic.Control.SetErrorHandler("ShowData_Grid_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+v.Local.ssql.Declare(String)
+v.Local.i.Declare(long)
+v.Local.iret.Declare(long)
+v.Local.stitle.Declare(String)
+
+'	f.Intrinsic.String.Build("select * from GCG_4607_OpenDash"," ",v.Local.ssql)
+
+	Function.Intrinsic.UI.InvokeWaitDialog("Processing ...")
+	
+	
+'F.Intrinsic.Debug.InvokeDebugger
+'
+'F.Intrinsic.Debug.Stop
+'User_APP User_1
+'User_FC	 User_2 
+'User_Phased User_6
+'User_Calcs User_7
+'User_Glass User_8
+'User_Schedule User_9
+
+'	v.Local.ssql.Set("select distinct HDR.User_1,HDR.Order_No,HDR.Date_Order,CASE WHEN rtrim(HDR.ORDER_SORT_2) = '' THEN HDR.MARK_INFO else HDR.ORDER_SORT_2 END as 'Job Name', ")
+'	f.Intrinsic.String.Build(" {0} Hdr.Customer,HDR.Code_Sort,HDR.User_3,User_APP, User_FC,User_Phased,User_Calcs,User_Glass,User_Schedule ",v.Local.ssql,v.Local.ssql)
+'	f.Intrinsic.String.Build(" {0} from V_Order_Header as  HDR join V_Order_lines as det on hdr.order_no = det.order_no ",v.Local.ssql,v.Local.ssql)
+'	f.Intrinsic.String.Build(" {0} left join GCG_4607_OpenDash as Dash on Hdr.ORDER_NO = Dash.ORDER_NO where QTY_BO >0 order by HDR.Order_No" ,v.Local.ssql,v.Local.ssql )
+	
+	v.Local.ssql.Set("select distinct HDR.User_1 as USER1,HDR.Order_No,HDR.Date_Order,HDR.Date_Due,HDR.ORDER_SORT_2 'Job Name',ship.State_Ship as State, ")
+	f.Intrinsic.String.Build(" {0} Hdr.Customer,Bill.Name_Customer as 'Customer Name',Dash.User_3,HDR.Code_Sort,Hdr.User_3 as USER3,Dash.User_1, Dash.User_2,User_6,User_7,User_8,User_9 ",v.Local.ssql,v.Local.ssql)
+	f.Intrinsic.String.Build(" {0} from V_Order_Header as  HDR join V_Order_lines as det on hdr.order_no = det.order_no ",v.Local.ssql,v.Local.ssql)
+	f.Intrinsic.String.Build(" {0} left join GCG_4607_OpenDash as Dash on Hdr.ORDER_NO = Dash.ORDER_NO left join v_order_bill_to as bill on Hdr.ORDER_NO = bill.ORDER_NO left join v_order_ship_to as ship on Hdr.ORDER_NO = ship.ORDER_NO where QTY_BO >0 order by HDR.Order_No" ,v.Local.ssql,v.Local.ssql )
+
+
+	F.Intrinsic.Control.If(v.DataTable.Header.Exists,=,True)
+		F.Data.DataTable.Close("Header")
+	f.Intrinsic.Control.EndIf 
+
+	F.Data.DataTable.CreateFromSql("Header","conx",v.Local.sSql,True)
+	
+	gui.frmdash.GsGrid.AddGridViewFromDataTable("Grid_Header","Header") 
+	gui.frmdash.GsGrid.mainview("Grid_Header")
+
+gui.frmdash.GsGrid.GetColumnCount("Grid_Header",v.Local.iret)
+f.Intrinsic.Math.Sub(v.Local.iret,1,v.Local.iret)
+f.Intrinsic.Control.For(v.Local.i,0,v.Local.iret,1)
+	gui.frmdash.GsGrid.GetColumnNamebyIndex("Grid_Header",v.Local.i,v.Local.stitle)
+'	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle, "DisplayCustomDatetime", "d")
+	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"MinWidth",60)
+'	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"MaxWidth",60)
+	
+	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"AllowEdit",True)
+	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"ReadOnly",False)
+	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"HeaderFontBold","True")
+	gui.frmdash.GsGrid.SetColumnProperty("Grid_Header",v.Local.stitle,"HeaderWordWrap","wrap")
+f.Intrinsic.Control.Next(v.Local.i)
+
+gui.frmdash.GsGrid.SetGridViewProperty("Grid_Header", "ColumnPanelRowHeight", "40")
+gui.frmdash.GsGrid.SetGridViewProperty("Grid_Header", "Enableappearanceevenrow", "True")
+
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","USER1","Caption","PM")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Order_No","Caption","SO #")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Order","Caption","Order Date")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Due","Caption","Due Date")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Code_Sort","Caption","Rail System")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User3","Caption","Installer")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_3","Caption","Customer PM")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_7","Caption","Calcs")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_8","Caption","Glass")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_6","Caption","Phased")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_9","Caption","Schedule")
+
+gui.frmdash.GsGrid.ColumnEdit("Grid_Header","User_7","Dropdownlist","*!*Yes*!*No*!*Sent")
+gui.frmdash.GsGrid.ColumnEdit("Grid_Header","User_8","Dropdownlist","*!*Engineered*!*Ordered*!*Confirmed")
+gui.frmdash.GsGrid.ColumnEdit("Grid_Header","User_6","Dropdownlist","*!*Yes*!*No")
+gui.frmdash.GsGrid.ColumnEdit("Grid_Header","User_9","Dropdownlist","*!*Standard*!*Condensed*!*Expedited")
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_1","Caption","APP Status")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_2","Caption","FC Status")
+
+'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_10","Caption","User10")
+'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_3","Caption","User3")
+'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_4","Caption","User4")
+'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_5","Caption","User5")
+
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","ORDER_NO","AllowEdit",False)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","ORDER_NO","ReadOnly",True)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User1","AllowEdit",False)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User1","ReadOnly",True)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Order","AllowEdit",False)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Order","ReadOnly",True)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Due","AllowEdit",False)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Due","ReadOnly",True)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Code_Sort","AllowEdit",False)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Code_Sort","ReadOnly",True)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User3","AllowEdit",False)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User3","ReadOnly",True)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Job Name","AllowEdit",False)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Job Name","ReadOnly",True)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Customer","AllowEdit",False)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Customer","ReadOnly",True)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","State","AllowEdit",False)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","State","ReadOnly",True)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Customer Name","AllowEdit",False)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Customer Name","ReadOnly",True)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Customer","MinWidth",70)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","State","MinWidth",40)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User1","MinWidth",120)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Job Name","MinWidth",120)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Customer Name","MinWidth",150)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Code_Sort","MinWidth",90)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_3","MinWidth",90)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Customer","MaxWidth",70)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","State","MaxWidth",40)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User1","MaxWidth",150)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Job Name","MaxWidth",150)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Customer Name","MinWidth",180)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Code_Sort","MaxWidth",120)
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","User_3","MaxWidth",120)
+
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Order", "DisplayCustomDatetime", "d")
+gui.frmdash.GsGrid.SetColumnProperty("Grid_Header","Date_Due", "DisplayCustomDatetime", "d")
+
+'add
+'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header", "SO", "Visible", False)
+'gui.frmdash.GsGrid.SetColumnProperty("Grid_Header", "SO_Ln", "Visible", False)
+
+Function.Intrinsic.UI.CloseWaitDialog
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("ShowData_Grid_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.UI.CloseWaitDialog
+	Function.Intrinsic.String.Concat("Project: GCG_4607_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.ShowData_Grid.End
+
+Program.Sub.GsGrid_CellValueChanged.Start
+F.Intrinsic.Control.SetErrorHandler("Main_Err")
+F.Intrinsic.Control.ClearErrors
+
+V.Local.sError.Declare(String)
+
+
+V.Global.bDatachanged.Set(True)
+
+
+F.Intrinsic.Control.ExitSub
+
+F.Intrinsic.Control.Label("Main_Err")
+F.Intrinsic.Control.If(V.Ambient.ErrorNumber,<>,0)
+	Function.Intrinsic.String.Concat("Project: GCG_4607_OpenDash.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+Function.Intrinsic.Control.EndIf
+
+
+Program.Sub.GsGrid_CellValueChanged.End
+
+Program.Sub.Comments.Start
+${$0$}$Open Dashboard$}$RAN$}$5/23/2017 11:30:54 PM$}$False
+Program.Sub.Comments.End
